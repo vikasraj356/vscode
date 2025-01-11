@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: #61dafb;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar ul li a {
+    color: #dcdcdc;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    color: #61dafb;
+  }
+  
+
+
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #282c34;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    padding: 0.8rem 2rem;
+    background-color: #61dafb;
+    color: #282c34;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .features {
+    padding: 4rem 1rem;
+    background-color: #20232a;
+  }
+  
+  .features h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .features .feature-item {
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+
+  .download {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #282c34;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .download .btn {
+    padding: 0.8rem 2rem;
+    background-color: #61dafb;
+    color: #282c34;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .download .btn:hover {
+    background-color: #21a1f1;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #dcdcdc;
+  }
+  
